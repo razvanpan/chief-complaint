@@ -1,7 +1,7 @@
 import * as React from 'react'
-import BodyComponent from './components/body-component.component/body-component.component'
-import HeaderComponent from './components/header-component.component/header-component.component'
-import FooterComponent from './components/footer-component.component/footer-component.component'
+import BodyComponent from './components/body/body.component'
+import HeaderComponent from './components/header/header.component'
+import FooterComponent from './components/footer/footer.component'
 
 export const  ChiefComplaiComponent = () => {
   return (

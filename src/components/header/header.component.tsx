@@ -1,6 +1,6 @@
 import React from 'react';
 import ActionHeader from 'terra-action-header';
-const ActionHeaderExample = () => (
+const CardHeader = () => (
   <div>
     <br />
     <ActionHeader
@@ -9,4 +9,4 @@ const ActionHeaderExample = () => (
     <br />
   </div>
 );
-export default ActionHeaderExample;
+export default CardHeader;
