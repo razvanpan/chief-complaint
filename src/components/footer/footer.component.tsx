@@ -8,5 +8,5 @@ const ChiefComplaintFooter =() => (
     />
 
 );
-export default ChiefComplaintfooter;
+export default ChiefComplaintFooter;
 
