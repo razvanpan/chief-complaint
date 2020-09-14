@@ -1,10 +1,10 @@
 import React from 'react'
 
-import { ExampleComponent } from 'first-library'
-import 'first-library/dist/index.css'
+import {ChiefComplaiComponent} from'first-library'
+
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <ChiefComplaiComponent />
 }
 
 export default App
