@@ -1,12 +1,16 @@
-import React from 'react';
-import Hyperlink from 'terra-hyperlink';
-import ActionFooter from 'terra-action-footer';
-const ChiefComplaintFooter =() => (
+import React from 'react'
 
-    <ActionFooter
-      start={<Hyperlink href="#">Start Action</Hyperlink>}
-    />
-
-);
-export default ChiefComplaintFooter;
-
+import ActionFooter from 'terra-action-footer'
+const ChiefComplaintFooter = () => (
+  <div
+    style={{
+      bottom: '0',
+      position: 'absolute',
+      width: '97.5%'
+      //height: '10%'
+    }}
+  >
+    <ActionFooter />
+  </div>
+)
+export default ChiefComplaintFooter
