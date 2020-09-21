@@ -3,7 +3,7 @@ import Card from 'terra-card/lib/Card'
 import LabelValueView from 'terra-clinical-label-value-view'
 import Input from 'terra-form-input'
 
-const CardPaddingHorizontal = () => (
+const ChiefComplaintBody = () => (
   <div
     style={{
       height: '80%',
@@ -42,4 +42,4 @@ const CardPaddingHorizontal = () => (
     <div></div>
   </div>
 )
-export default CardPaddingHorizontal
+export default ChiefComplaintBody
