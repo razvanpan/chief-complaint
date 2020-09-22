@@ -1,10 +1,10 @@
 {
-  "name": "first-library",
+  "name": "chief-complaint",
   "version": "1.0.0",
   "description": "Made with create-react-library",
   "author": "Fi073492",
   "license": "(MIT)",
-  "repository": "Fi073492/first-library",
+  "repository": "Fi073492/chief-compalint",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
@@ -65,6 +65,10 @@
     "react-intl": "^5.8.1",
     "terra-action-footer": "^2.52.0",
     "terra-action-header": "^2.56.0",
-    "terra-card": "^3.34.0"
+    "terra-button": "^3.47.0",
+    "terra-card": "^3.34.0",
+    "terra-clinical-label-value-view": "^3.22.0",
+    "terra-form-input": "^4.3.0",
+    "terra-icon": "^3.36.0"
   }
 }

@@ -1,14 +1,21 @@
 import * as React from 'react'
-import BodyComponent from './components/body/body.component'
-import HeaderComponent from './components/header/header.component'
-import FooterComponent from './components/footer/footer.component'
+import ChiefComplaintBody from './components/body/body.component'
+import ChiefComplaintHeader from './components/header/header.component'
+import ChiefComplaintFooter from './components/footer/footer.component'
 
-export const  ChiefComplaintComponent = () => {
+export const ChiefComplaintComponent = () => {
   return (
-    <div>
-      <HeaderComponent></HeaderComponent>
-      <BodyComponent></BodyComponent>
-      <FooterComponent></FooterComponent>
+    <div
+      style={{
+        width: '100%',
+        height: '100%',
+        overflowX: 'hidden',
+        flexDirection: 'column'
+      }}
+    >
+      <ChiefComplaintHeader></ChiefComplaintHeader>
+      <ChiefComplaintBody></ChiefComplaintBody>
+      <ChiefComplaintFooter></ChiefComplaintFooter>
     </div>
   )
 }

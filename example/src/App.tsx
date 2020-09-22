@@ -1,10 +1,9 @@
 import React from 'react'
 
-import {ChiefComplaiComponent} from'first-library'
-
+import { ChiefComplaintComponent } from 'chief-complaint'
 
 const App = () => {
-  return <ChiefComplaiComponent />
+  return <ChiefComplaintComponent />
 }
 
 export default App
