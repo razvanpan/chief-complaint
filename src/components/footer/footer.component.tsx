@@ -9,16 +9,19 @@ const ChiefComplaintFooter = () => (
     style={{
       bottom: '0',
       position: 'fixed',
-      width: '100%'
+      width: '100% ',
+      paddingLeft: '0'
     }}
   >
     <ActionFooter
       end={
         <React.Fragment>
-          <Spacer isInlineBlock marginRight='medium'>
-            <Button text='Submit' variant={Button.Opts.Variants.EMPHASIS} />
-          </Spacer>
-          <Button text='Cancel' />
+          <div>
+            <Spacer isInlineBlock marginRight='medium'>
+              <Button text='Submit' variant={Button.Opts.Variants.EMPHASIS} />
+            </Spacer>
+            <Button text='Cancel' />
+          </div>
         </React.Fragment>
       }
     />

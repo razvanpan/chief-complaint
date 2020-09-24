@@ -12,8 +12,7 @@ const ChiefComplaintHeader = () => (
       width: '100%'
     }}
   >
-    <br />
-    <ActionHeader title='Default Action Header'>
+    <ActionHeader title='Chief Complaint'>
       <Button
         text='Utility'
         variant='utility'

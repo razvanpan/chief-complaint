@@ -7,7 +7,7 @@ export const ChiefComplaintComponent = () => {
   return (
     <div
       style={{
-        width: '100%',
+        width: '100% !important',
         height: '100%',
         overflowX: 'hidden',
         flexDirection: 'column'
