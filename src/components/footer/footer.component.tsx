@@ -16,7 +16,7 @@ const ChiefComplaintFooter = () => (
     <ActionFooter
       end={
         <React.Fragment>
-          <div>
+          <div style={{ marginRight: '50px' }}>
             <Spacer isInlineBlock marginRight='medium'>
               <Button text='Submit' variant={Button.Opts.Variants.EMPHASIS} />
             </Spacer>

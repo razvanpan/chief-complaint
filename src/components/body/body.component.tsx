@@ -8,7 +8,8 @@ const ChiefComplaintBody = () => (
     style={{
       height: '80%',
       position: 'absolute',
-      width: '100%'
+      width: '100%',
+      overflowY: 'scroll'
     }}
   >
     <div>
