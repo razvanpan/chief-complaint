@@ -14,6 +14,7 @@ const ChiefComplaintFooter = () => (
     }}
   >
     <ActionFooter
+      style={{ width: '99%' }}
       end={
         <React.Fragment>
           <div style={{ marginRight: '50px' }}>

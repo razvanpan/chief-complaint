@@ -8,8 +8,7 @@ const ChiefComplaintBody = () => (
     style={{
       height: '80%',
       position: 'absolute',
-      width: '100%',
-      overflowY: 'scroll'
+      width: '100%'
     }}
   >
     <div>
@@ -37,8 +36,7 @@ const ChiefComplaintBody = () => (
         <div
           style={{
             fontSize: '6px',
-            width: '100% !important ',
-            paddingLeft: '12px'
+            width: '99%'
           }}
         >
           <Input
