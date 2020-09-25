@@ -12,7 +12,14 @@ const ChiefComplaintHeader = () => (
       width: '100%'
     }}
   >
-    <ActionHeader title='Chief Complaint'>
+    <ActionHeader
+      style={{
+        border: 'solid',
+        borderRadius: '25px 25px 0px 0px',
+        borderColor: '#eaeffa'
+      }}
+      title='Chief Complaint'
+    >
       <Button
         text='Utility'
         variant='utility'
