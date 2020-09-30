@@ -1,0 +1,16 @@
+.bodyContainer {
+  position: fixed;
+  width: 100%;
+  background-color: #eaeffa;
+  font-size: 10px;
+  padding-left: 12px;
+  top: 59px;
+  bottom: 70px;
+  overflow: auto;
+}
+
+.imputContainer {
+  padding-right: 50px;
+  width: auto;
+  font-size: 6px;
+}

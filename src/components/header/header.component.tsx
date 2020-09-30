@@ -3,17 +3,13 @@ import ActionHeader from 'terra-action-header'
 
 import Button from 'terra-button/lib/Button'
 import IconRollup from 'terra-icon/lib/icon/IconRollup'
-
+import styles from './header.component.css'
 const ChiefComplaintHeader = () => (
-  <div
-    style={{
-      top: '0',
-      position: 'relative',
-      width: '100%'
-    }}
-  >
-    <br />
-    <ActionHeader title='Default Action Header'>
+  <div className={styles.headerContainer}>
+    <ActionHeader
+      className={styles.actionHeaderContainer}
+      title='Chief Complaint'
+    >
       <Button
         text='Utility'
         variant='utility'
