@@ -4,7 +4,7 @@ import ChiefComplaintComponent from 'chief-complaint'
 import 'chief-complaint/dist/index.css'
 
 const App = () => {
-  return <ChiefComplaintComponent />
+  return <ChiefComplaintComponent></ChiefComplaintComponent>
 }
 
 export default App
