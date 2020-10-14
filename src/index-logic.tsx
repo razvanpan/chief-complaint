@@ -25,10 +25,9 @@ class ChiefComplaintLogic extends React.Component<
       input: newInput
     })
   }
-  onClikCancel(newInput: string) {
+  onClikCancel() {
     this.setState({
-      isEditable: true,
-      input: newInput
+      isEditable: true
     })
   }
   onClickSubmit() {
@@ -65,7 +64,7 @@ class ChiefComplaintLogic extends React.Component<
         ></ChiefComplaintBody>
         <ChiefComplaintFooter
           onSubmit={this.onClickSubmit}
-          onCancel={this.onClikCancel(this.state.input)}
+          onCancel={this.onClikCancel}
         ></ChiefComplaintFooter>
       </div>
     )
