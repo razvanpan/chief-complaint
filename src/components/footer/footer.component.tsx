@@ -4,7 +4,10 @@ import Button from 'terra-button'
 import Spacer from 'terra-spacer'
 import ActionFooter from 'terra-action-footer'
 import styles from './footer.component.css'
-class ChiefComplaintFooter extends React.Component<{ onSubmit: () => void }> {
+class ChiefComplaintFooter extends React.Component<{
+  onSubmit: () => void
+  onCancel: () => void
+}> {
   constructor(props) {
     super(props)
     this.submitHandler = this.submitHandler.bind(this)
@@ -29,7 +32,7 @@ class ChiefComplaintFooter extends React.Component<{ onSubmit: () => void }> {
                     onClick={this.props.onSubmit}
                   />
                 </Spacer>
-                <Button text='Cancel' />
+                <Button text='Cancel' onClick={this.props.onCancel} />
               </div>
             </React.Fragment>
           }
