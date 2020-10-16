@@ -12,7 +12,7 @@ interface state {
 }
 
 class ChiefComplaintBody extends React.Component<
-  { onInput: (admissionNoteChange: string) => void },
+  { onInput: (admissionNoteChange: string) => void; show: boolean },
   state
 > {
   constructor(props) {
@@ -70,6 +70,7 @@ class ChiefComplaintBody extends React.Component<
   }
   submitChange(event) {
     event.preventDefault()
+
     this.props.onInput(this.state.inputField)
   }
 
@@ -84,7 +85,10 @@ class ChiefComplaintBody extends React.Component<
         <br></br>
         <div>{this.state.edditedByLabel}</div>
         <div className={styles.imputContainer}>
-          {this.state.admissionNoteLabel}
+          {this.props.show && this.state.admissionNoteLabel}
+          {!this.props.show && (
+            <LabelValueView textValue={this.state.inputField} />
+          )}
         </div>
       </div>
     )
